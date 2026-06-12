@@ -18,7 +18,7 @@ class CasinoApp extends StatelessWidget {
           secondary: Color(0xFF10B981),
           surface: Color(0xFF111827),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: const Color(0xFF111827),
           elevation: 0,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),

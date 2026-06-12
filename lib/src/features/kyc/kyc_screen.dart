@@ -26,13 +26,14 @@ class KycScreen extends ConsumerWidget {
                   const SizedBox(height: 8),
                   Text('Status: ${profile.kyc.name.toUpperCase()}'),
                   const SizedBox(height: 12),
-                  Row(
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
                     children: [
                       ElevatedButton(
                         onPressed: () => ctl.setKyc(KycStatus.pending),
                         child: const Text('Start (Persona)'),
                       ),
-                      const SizedBox(width: 8),
                       ElevatedButton(
                         onPressed: () => ctl.setKyc(KycStatus.verified),
                         child: const Text('Simulate verified'),

@@ -2,6 +2,18 @@
 
 Flutter POC for a sweepstakes-model mobile casino (dual-currency GC/SC), modeled after the Crash or Cash game suite. Built to prove the core compliance and game-suite structure an app like this needs before wiring a real backend.
 
+## Demo
+
+Real captures from the running app on the iOS Simulator (iPhone 16e), not mockups. See [FLOW.md](FLOW.md) for how they are regenerated.
+
+| Home (dual-currency wallet + game suite) | Mines (live board + cashout) |
+| --- | --- |
+| ![Home](screenshots/01-home.png) | ![Mines](screenshots/02-mines.png) |
+| KYC & eligibility | Wallet (buy GC, redeem SC, no-purchase-necessary) |
+| ![KYC](screenshots/03-kyc.png) | ![Wallet](screenshots/04-wallet.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## Features
 
 - **Dual-currency wallet** - Gold Coins (entertainment, purchased) + Sweeps Coins (free promotional, redeemable for prizes)
